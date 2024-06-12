@@ -3,18 +3,25 @@
 ## Description
 "LoveInterview-Guangzhou" is an AI-powered interview training platform designed to help job seekers master interviews, with a focus on the Guangzhou job market. The platform leverages GPT models to simulate various company interview scenarios and positions, offering personalized training and feedback. 
 
-This project provides a complete template implemented using Python and Flask, featuring functionality for calling the GPT-4 API and supporting the reading of all .txt data files in the /data folder for pre-training the model.
+Here is a complete project template implemented using Python and Flask, featuring functionality for calling the GPT-4 API and supporting the reading of all .txt data files in the /data folder for pre-training the model.
 
+### Project Directory Structure
 
-### Project Structure
-
-\```
+```plaintext
 LoveInterview/
 ├── app.py
 ├── requirements.txt
 ├── .env
 ├── .gitignore
 ├── README.md
+├── update_and_push.sh
+├── data/
+│   ├── file1.txt
+│   └── file2.txt
+└── utils/
+    └── data_loader.py
+
+
 
 ## Key Features
 
