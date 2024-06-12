@@ -1,0 +1,151 @@
+
+Hiring Manager Interview Prep:
+
+There are two ways that the Hiring Manager may go with this interview...
+Option 1: Deep dive into the work you’ve done at your current company, as well as the last 1-2 companies you’ve worked at
+
+    Role and Responsibilities: Emphasize your position as a Backend Engineer focusing on microservices architecture and cloud integration.
+
+    Key Projects and Technologies:
+        Inventory Service Development:
+            Describe the transition from monolithic to microservices architecture.
+            Highlight your role in designing and developing the Inventory Service.
+            Discuss the use of Java, Spring Boot, and REST APIs in this project.
+        VMware Cloud on AWS:
+            Talk about how you orchestrated AWS-related infrastructure resources.
+            Emphasize asynchronous workflows and transaction management enhancements.
+    Impact:
+        Detail how your work improved the reliability and efficiency of VMware’s cloud services.
+        Mention any metrics or feedback that demonstrate the success of your projects.
+
+Addressing Large-Scale Backend Systems and Cloud Experience
+Talk about how these projects required you to build and manage large-scale backend systems.
+Discuss your experience with AWS, Kubernetes, and Docker, emphasizing your adaptability and proficiency with different cloud services.
+
+
+
+
+Option 2: Deep dive into your most recent 1 or 2 projects
+
+Regardless of which questions the Hiring Manager asks, you will be diving deep into the technologies and systems that you have worked on. They’ll want to understand your specific experience on these projects. Please be sure to emphasize your specific contributions to the projects and highlight the impact of the work you performed (Project impact is key)
+
+######################################
+    Specific Contributions:
+        Detail your specific tasks and how you approached them.
+        
+        Discuss the technologies and systems you worked on.
+
+    Project Impact:
+        Emphasize the impact of your work on the project's success.
+        
+        Discuss any innovations or efficiencies you introduced.
+
+######################################
+    General Preparation
+######################################
+    ######################################
+    "Large-Scale Systems Experience": Share your experience in building large-scale backend systems, infrastructure, and data management.
+    
+            "My experience in building large-scale backend systems is grounded in my role at VMware, where I was instrumental in transitioning our cloud management platform from a monolithic to a microservices architecture. This project, named 'Core Inventory,' involved designing and developing the Inventory Service, which served as a central component in transforming VMware's hybrid cloud management platform.
+
+            This transition was challenging due to the scale and complexity of the systems involved. I had to ensure seamless integration and minimal disruption to existing services while implementing new microservices. My focus was on creating a unified control plane that managed inventory resources across multiple vSphere-based infrastructure providers, including VMC on AWS. This project was not just about handling technical complexity but also about ensuring scalability, reliability, and performance efficiency at a large scale, which are critical for enterprise-level cloud services."  
+    
+    RAS 如何保证 ??
+
+        Scalability 可扩展性
+
+            "Microservices Architecture": At VMware, transitioning to a microservices architecture was pivotal for scalability. This architecture allows for the independent scaling of each service based on demand, rather than scaling the entire monolithic application,
+
+            "Load Balancing" and Elasticity: Using load balancers and elastic scaling strategies, I ensured that the system could handle varying loads by distributing traffic evenly across servers and dynamically adjusting resources.
+
+            "Containerization" with Kubernetes: Kubernetes enables orchestration of containerized applications, allowing for efficient scaling and management of containerized workloads.
+
+        Reliability 可靠性 （Mean Time Between Failures, MTBF）
+
+            "Fault Tolerance and Redundancy": Designing systems with redundancy, where critical components have "backups", ensures the system remains operational even if a part fails. This approach was essential in my work on the Inventory Service project.
+
+            Robust "Error Handling and Recovery": Implementing comprehensive error handling and recovery mechanisms helped in quickly identifying and addressing issues, minimizing downtime.
+
+            Continuous "Monitoring and Testing": Regularly monitoring system performance and conducting stress tests enabled me to identify potential reliability issues and rectify them proactively.
+            Test coverage > 95%
+
+        Availability 可用性 （99.9%）
+
+            “Redundancy and Failover Strategies“: Designing the system with redundancy in mind, where critical components had backup instances, was vital for maintaining high availability. In case of a component failure, the system could seamlessly switch to a backup without disrupting the service.
+
+            Proactive Monitoring and Alerting: I focused on implementing comprehensive monitoring and alerting systems. This enabled us to detect and address potential issues before they could impact the availability of our services. Tools like Grafana and Kibana were instrumental in providing real-time insights into system performance.
+
+        Ensuring Performance Efficiency
+            Optimized “Database Queries“: Writing efficient code and optimizing database queries were key to maintaining high performance, especially when dealing with large volumes of data.
+            
+            “Caching“ Strategies: Implementing effective caching strategies reduced the load on the database and decreased response times, improving the overall performance of the system.
+            
+            Performance “Profiling“: Regular performance profiling helped in identifying bottlenecks.
+
+
+    ######################################
+    Public Cloud Experience: Discuss your experience with AWS, Kubernetes, and Docker, highlighting your 
+    adaptability and skillset.
+
+        "In terms of my experience with public cloud infrastructure, I have worked extensively with AWS, Kubernetes, and Docker. During my time at VMware, I was responsible for orchestrating AWS-related infrastructure resources. This involved implementing asynchronous workflows and enhancing transaction management using the orchestrator pattern, which was crucial for the reliability and efficiency of the service.
+
+######################################
+Communication Skills:
+###################################### 
+
+    ###################################### 
+    How to resolve conflict?
+
+
+    where your communication skills positively influenced project outcomes or team dynamics.
+    (STAR - situation, task, action, result)
+
+        Example 1: Facilitating the Transition to Microservices at VMware
+        Situation: During the transition from a monolithic architecture to a microservices architecture in the "Core Inventory" project at VMware, the team faced challenges in adapting to new workflows and understanding the complexities of the new architecture.
+
+        Action: Recognizing the need for clear communication, I organized a series of workshops and regular team meetings. In these sessions, I presented the benefits of microservices architecture, addressing concerns and questions. I also shared clear documentation on the new processes and best practices.
+
+        Result: This proactive communication helped in aligning the team with the project goals, clarifying doubts, and fostering a collaborative environment. It led to a smoother transition with reduced resistance, and the team was able to adapt more quickly to the new architecture, positively impacting the project timeline and quality.
+
+
+    Be ready to discuss how you have collaborated within and across teams. 组内沟通
+
+
+    cross function team? 跨组沟通
+
+        Example 2: Cross-Functional Collaboration on VMware Cloud on AWS
+        Situation: The VMware Cloud on AWS project required close collaboration between multiple teams, including development, operations, and infrastructure teams. Initially, there were challenges in coordination, leading to delays and misunderstandings.
+
+        Action: I initiated regular cross-functional meetings, creating an open forum for all teams to discuss their progress, challenges, and dependencies. I emphasized the importance of transparent communication and encouraged team members to share their insights and feedback openly.
+
+        Result: These efforts improved inter-team collaboration, resulting in better synchronization of tasks and a more cohesive approach to problem-solving. The project saw improved efficiency and a reduction in delays, demonstrating the value of effective communication in a cross-functional environment.
+
+
+
+######################################    
+Understanding Your Career Motivations
+######################################
+
+        ######################################
+        Why You’re Exploring New Opportunities: Be clear about your reasons for job searching and what you are looking for in your next role.
+        
+        ######################################
+        Alignment with Moveworks: Explain how your career aspirations align with what Moveworks offers.
+
+
+######################################
+Questions for Moveworks: 
+######################################
+
+        Prepare insightful questions about their technology, future plans, and team dynamics.
+
+
+
+The Hiring Manager will seek to gain an understanding of your:
+Experience with building large scale back end systems and large-scale infrastructure & data
+Experience with building services on public cloud or cloud based infrastructure(s) (No preference on which cloud providers you have experience with - What’s most important is that you have experience with either AWS, GCP OR Azure
+Communication skills (We’re seeking to hire someone who is strong in this area)
+Please be prepared to clearly explain, “Why are you looking around or on the job market, and what are you looking for in your next role and company?
+I would encourage you to write down your previous experience, so that you’re comfortable speaking about it in great detail
+
+

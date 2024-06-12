@@ -1,12 +1,13 @@
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 from flask import Flask, request, jsonify
 import openai
 from dotenv import load_dotenv
 from utils.data_loader import load_data
+
+# Add the project root directory to the Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Load environment variables from .env file
 load_dotenv()
