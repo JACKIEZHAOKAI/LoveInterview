@@ -1,7 +1,5 @@
 #!/bin/bash
 
-REPO_PATH=$(pwd)
-
 if [[ -n $(git status -s) ]]; then
   git add .
   COMMIT_MESSAGE="Update README.md and other changes"
