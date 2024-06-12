@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# Define the repository path
-REPO_PATH="."
-
-# Change to the directory of your repository
-cd $REPO_PATH || { echo "Repository path not found"; exit 1; }
+# Change to the directory of your repository (current directory in this case)
+REPO_PATH=$(pwd)
 
 # Check for unstaged changes
 if [[ -n $(git status -s) ]]; then
