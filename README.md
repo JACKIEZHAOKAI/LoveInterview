@@ -71,16 +71,6 @@ Our mission is to provide comprehensive and accurate interview training using AI
 ## 描述
 “LoveInterview-Guangzhou” 是一个由 AI 驱动的面试培训平台，旨在帮助求职者掌握面试技巧，重点关注广州的就业市场。该平台利用 GPT 模型模拟各种公司的面试场景和职位，提供个性化的培训和反馈。
 
-### 项目目录结构
-
-\```
-LoveInterview/
-├── app.py
-├── requirements.txt
-├── .env
-├── .gitignore
-├── README.md
-
 ## 主要功能
 
 ### 核心培训模块
