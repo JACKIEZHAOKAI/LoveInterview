@@ -20,8 +20,7 @@ LoveInterview/
 │   └── file2.txt
 └── utils/
     └── data_loader.py
-
-
+```
 
 ## Key Features
 
